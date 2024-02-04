@@ -1,0 +1,14 @@
+# Binaries
+
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test Binary
+*.test
+
+# Converage
+*.out
+# Db Folder
+db/
