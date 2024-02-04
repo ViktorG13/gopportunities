@@ -10,12 +10,12 @@ import (
 // @BasePath /api/v1
 
 // @Summary List all openings
-// @Description List a new job opening
+// @Description List all job openings created
 // @Tags Openings
 // @Accept json
 // @Produce json
 // @Failure 500 {object} ErrorResponse
-// @Router /opening [get]
+// @Router /openings [get]
 func ListOpeningHandler(ctx *gin.Context) {
 	openings := []schemas.Opening{}
 
