@@ -90,6 +90,20 @@ paths:
       summary: Delete a opening
       tags:
       - Openings
+    get:
+      consumes:
+      - application/json
+      description: List a new job opening
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      summary: List all openings
+      tags:
+      - Openings
     post:
       consumes:
       - application/json
