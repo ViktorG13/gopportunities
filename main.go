@@ -1,11 +1,9 @@
 package main
 
-// Imports.
-import "fmt"
+import (
+	"github.com/ViktorG13/gopportunities/router"
+)
 
-// End Imports.
-
-// Main Func.
 func main() {
-	fmt.Println("Hello, World!")
-} // End Main Func.
+	router.Initialize()
+}
