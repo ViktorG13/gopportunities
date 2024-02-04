@@ -15,6 +15,9 @@ import (
 *
 */
 func initializeRoutes(router *gin.Engine) {
+	// Initialize Handler
+	handler.InitializerHandle()
+
 	v1 := router.Group("/api/v1")
 	{
 
