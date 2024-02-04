@@ -12,3 +12,5 @@
 *.out
 # Db Folder
 db/
+
+.vscode/
